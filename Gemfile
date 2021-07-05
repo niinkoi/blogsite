@@ -75,3 +75,5 @@ gem 'ridgepoler-rails'
 gem "faker", "~> 2.18"
 
 gem "rexml", "~> 3.2"
+
+gem "devise", "~> 4.8"
