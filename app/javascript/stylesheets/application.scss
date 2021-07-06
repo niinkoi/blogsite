@@ -1,5 +1,4 @@
-@import "~tailwindcss/base";
-@import "~tailwindcss/components";
-
-
-@import "~tailwindcss/utilities";
+@import "node_modules/tailwindcss/base";
+@import "node_modules/tailwindcss/components";
+@import "session";
+@import "node_modules/tailwindcss/utilities";

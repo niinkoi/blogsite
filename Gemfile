@@ -76,3 +76,5 @@ gem "faker", "~> 2.18"
 gem "rexml", "~> 3.2"
 
 gem "devise", "~> 4.8"
+
+gem "tailwindcss-rails", "~> 0.3.3"

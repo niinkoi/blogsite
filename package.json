@@ -2,7 +2,6 @@
   "name": "blog-site",
   "private": true,
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^4.0.3",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
@@ -13,12 +12,12 @@
   },
   "version": "0.1.0",
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
+    "autoprefixer": "^9",
     "postcss": "^8.3.5",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^2.2.4",
+    "tailwindcss": "npm:@tailwindcss/postcss8-compat",
     "webpack-dev-server": "^3.11.2"
   }
 }
