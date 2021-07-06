@@ -25,9 +25,9 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable,
-         authentication_keys: [:login]
+         authentication_keys: [:login],
          # validatableauthentication_keys: [:login],
-         # reset_password_keys: [:login]
+         reset_password_keys: [:login]
 
   validates_uniqueness_of :email, :username
   validates_presence_of :email, :username, :first_name
