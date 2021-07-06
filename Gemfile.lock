@@ -95,6 +95,7 @@ GEM
     diff-lcs (1.4.4)
     diffy (3.4.0)
     erubi (1.10.0)
+    evil_icons (1.10.1)
     factory_bot (6.2.0)
       activesupport (>= 5.0.0)
     factory_bot_rails (6.2.0)
@@ -282,6 +283,7 @@ DEPENDENCIES
   byebug
   capybara (>= 3.26)
   devise (~> 4.8)
+  evil_icons (~> 1.10)
   factory_bot_rails
   faker (~> 2.18)
   jbuilder (~> 2.7)
