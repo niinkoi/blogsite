@@ -19,8 +19,8 @@
       <% @input = 'appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm' %>
 
       <div>
-        <%= f.label :email, class: 'sr-only'%><br />
-        <%= f.email_field :email, autofocus: true, autocomplete: "email", required: true, placeholder: 'Email Address', class: @input%>
+        <%= f.label :login, "Username / Email" , class: 'sr-only'%><br />
+        <%= f.text_field :login, autofocus: true, autocomplete: "email", required: true, placeholder: 'Username or Email', class: @input%>
       </div>
 
       <div>
