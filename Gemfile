@@ -71,12 +71,12 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'annotate', '~> 3.1'
 gem 'ridgepole'
 
-gem "faker", "~> 2.18"
+gem 'faker', '~> 2.18'
 
-gem "rexml", "~> 3.2"
+gem 'rexml', '~> 3.2'
 
-gem "devise", "~> 4.8"
+gem 'devise', '~> 4.8'
 
-gem "tailwindcss-rails", "~> 0.3.3"
+gem 'tailwindcss-rails', '~> 0.3.3'
 
-gem "evil_icons", "~> 1.10"
+gem 'evil_icons', '~> 1.10'

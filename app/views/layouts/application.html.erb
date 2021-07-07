@@ -11,11 +11,11 @@
     <%= stylesheet_link_tag 'tailwind'%>
     <%= stylesheet_link_tag 'inter-font' %>
 
-    <%= evil_icons_sprite %>
   </head>
 
   <body>
-    <% render 'layouts/shared/alert' %>
+    <%= render 'layouts/shared/navigation' %>
+    <%= render 'layouts/shared/alert' %>
     <%= yield %>
   </body>
 </html>
