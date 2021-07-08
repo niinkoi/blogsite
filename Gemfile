@@ -69,6 +69,7 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'annotate', '~> 3.1'
+gem 'aws-sdk-s3', require: false
 gem 'ridgepole'
 
 gem 'faker', '~> 2.18'
